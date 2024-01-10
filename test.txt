@@ -1,3 +1,5 @@
-This is a test file
-AKIASYHJHD6MWDXBPLXN
-IqLTEs77Ac91ynSPWljznVuMbgRR+oWUj8rAFZfw
+[default]
+aws_access_key_id = AKIAQYLPMN5HDF33XAAL
+aws_secret_access_key = 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
+output = json
+region = us-east-2
