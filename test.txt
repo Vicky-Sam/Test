@@ -1,3 +1,25 @@
-This is a test file
-AKIASYHJHD6MWDXBPLXN
-IqLTEs77Ac91ynSPWljznVuMbgRR+oWUj8rAFZfw
+name: Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy to Netlify
+        run: |
+          curl -X POST -d {} https://api.netlify.com/build_hooks/65082a5e08aa41595d900cf6
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.Ih6Md9dnOBjQwyoDDh2iv7nECiHVySX7eaXO8iWy3tM }}
