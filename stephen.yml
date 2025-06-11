@@ -1,0 +1,5 @@
+stephen.yml[default]
+aws_access_key_id = AKIAUM4G6O6NORQF3U4K
+aws_secret_access_key = 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
+output = json
+region = us-east-2
