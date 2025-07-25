@@ -1,0 +1,13 @@
+[default]
+aws_access_key_id = AKIAT4GVSAXXFMOGYOJ6
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
+
+
+[default]
+aws_access_key_id = AKIAT4GVSAXXFMOGYOJ6
+aws_secret_access_key = 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
+output = json
+region = us-east-2
