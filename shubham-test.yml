@@ -1,0 +1,13 @@
+[default]
+aws_access_key_id = AKIA475TKMODLWTN3PMM
+aws_secret_access_key = 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
+output = json
+region = us-east-2
+
+
+
+[default]
+aws_access_key_id = AKIA475TKMODCOO4QBGJ
+aws_secret_access_key = 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
+output = json
+region = us-east-2
